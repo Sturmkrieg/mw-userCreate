@@ -40,7 +40,7 @@ class CreateAndPromote extends Maintenance {
 	public function execute() {
 		$username = $this->getArg( 0 );
 		$password = $this->getArg( 1 );
-		$group = $this->getArg( 3 );
+		$group = $this->getArg( 2 );
 
 		$this->output( wfWikiID() . ": Creating and promoting User:{$username}..." );
 
