@@ -21,6 +21,7 @@
  * @ingroup Maintenance
  * @author Rob Church <robchur@gmail.com>
  * @contributor Inqusitor Ehrenstein <inquisitorsasha@sturmkrieg.de>
+ * Added functionality for adding any usergroup
  */
 
 require_once( dirname( __FILE__ ) . '/Maintenance.php' );
